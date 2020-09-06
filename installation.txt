@@ -1,0 +1,19 @@
+
+
+conda env task:
+
+conda install -c conda-forge jupyterlab	
+
+conda install -c conda-forge beautifulsoup4
+
+conda install -c conda-forge pandas
+
+conda install -c conda-forge spacy
+
+python -m spacy download en_core_web_lg
+
+conda install -c conda-forge matplotlib
+conda install -c conda-forge seaborn
+
+conda install -c conda-forge scikit-learn
+
